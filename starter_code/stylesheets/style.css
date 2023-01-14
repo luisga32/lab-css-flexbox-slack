@@ -63,7 +63,7 @@ img {
 .header_paragr {
     font-size: 1.7rem;
     font-weight: 800;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
 }
 .text_yellow {
     color:var(--paragraph-yellow);
