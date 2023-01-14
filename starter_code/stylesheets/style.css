@@ -8,3 +8,93 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+
+}
+:root {
+    --background-purple: #540B51;
+    --background-ivory: #F3EAE2;
+    --button-blue: #4285F4;
+    --titles-black: #191817;
+    --paragraph-black: #000000;
+    --paragraph-yellow: #ECB12F;
+    --links-blue: #2E71A6;
+    --footer-links-grey: #454245;
+}
+
+nav  {
+    background-color: var(--background-purple);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1.5rem ;
+}
+header {
+    background-color: var(--background-purple);
+    text-align: center;
+    padding: 1.5rem 3.3rem;
+    color:white;
+    display:flex;
+    flex-direction: column;
+    
+}
+
+img {
+    max-width: 100%;
+}
+
+.nav_button {
+    background-color: var(--background-purple);
+    border:none;
+    padding-top: 1rem;
+    padding-right: 2rem;
+    
+}
+
+
+.header_title {
+    font-size: 4rem;
+    margin-bottom: 0.5rem;
+}
+.header_paragr {
+    font-size: 1.7rem;
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+}
+.text_yellow {
+    color:var(--paragraph-yellow);
+}
+
+.header_buttons {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header_button_text {
+    font-size: 1.5rem;
+    font-weight: 600;
+    
+}
+
+.color_text_button {
+    color:var(--background-purple)
+}
+.header_button_flex {
+    display:flex;
+    align-items: center;
+    
+}
+
+.header_button_size {
+
+    height:3rem;
+}
+
+button>img {
+    max-width: 5%;
+}
