@@ -75,9 +75,13 @@ img {
 
 }
 
-.header_button_text {
-    font-size: 1.5rem;
+.header_button {
+    font-size: 1.2rem;
     font-weight: 600;
+    height:3rem;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    border-radius: 5px;
     
 }
 
@@ -88,13 +92,20 @@ img {
     display:flex;
     align-items: center;
     
+    
+}
+.button_google {
+    background-color: var(--button-blue);
 }
 
-.header_button_size {
-
-    height:3rem;
-}
-
-button>img {
+.button_google>img {
     max-width: 5%;
+    background-color: white;
+    margin-left:0.5rem; 
+    border-radius: 2px;
+
+}
+.button_google>span {
+    width:100%;
+    color:white;
 }
