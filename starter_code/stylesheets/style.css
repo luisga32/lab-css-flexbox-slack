@@ -42,6 +42,25 @@ header {
     flex-direction: column;
     
 }
+.nav_menu {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    list-style-position: inside;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    
+
+}
+.nav_menu li {
+    padding-right: 2rem;
+}
+
+.nav_menu li a,
+.nav_menu li a:visited {
+    text-decoration: none;
+    color: var(--links-blue);
+}
 
 img {
     max-width: 100%;
