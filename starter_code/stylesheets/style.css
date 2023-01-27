@@ -11,7 +11,7 @@ footer links grey: #454245
 * {
     margin: 0;
     padding: 0;
-    box-sizing: content-box;
+    box-sizing: border-box;
     font-family: Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
 
 }
@@ -25,62 +25,78 @@ footer links grey: #454245
     --links-blue: #2E71A6;
     --footer-links-grey: #454245;
 }
-
-nav  {
-    background-color: var(--background-purple);
+body {
+    margin: 0 auto;
+}
+.nav-style {
+    background-color: var(--background-purple);    
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 1.5rem ;
+    padding: 1rem ;
+    align-items: flex-start; 
+     
+    
+} 
+
+.nav-logo {
+ 
+  
 }
+.nav-logo img {
+   max-width: 30%;
+   margin-bottom: 0.5rem;
+}
+
+.nav-menu {
+    display: flex;
+    list-style-type: none;
+    list-style-position: inside;
+    justify-content: space-between;
+    adding-top: 1rem;
+}
+.nav-menu li {
+    padding-right: 0.5rem;
+}
+
+.nav-menu li a,
+.nav-menu li a:visited {
+    text-decoration: none;
+    color: var(--links-blue);
+}
+
+ 
 header {
     background-color: var(--background-purple);
     text-align: center;
-    padding: 1.5rem 3.3rem;
+    padding: 1.5rem;
     color:white;
     display:flex;
     flex-direction: column;
     
 }
-.nav_menu {
+
+.nav-buttons {
     display: flex;
-    justify-content: space-around;
-    list-style-type: none;
-    list-style-position: inside;
-    font-size: 1.5rem;
-    padding-top: 1rem;
+    gap: 1rem;
+   
     
-
-}
-.nav_menu li {
-    padding-right: 2rem;
 }
 
-.nav_menu li a,
-.nav_menu li a:visited {
-    text-decoration: none;
-    color: var(--links-blue);
-}
-
-img {
-    max-width: 100%;
-}
-
-.nav_button {
+.nav-button {
     background-color: var(--background-purple);
     border:none;
-    padding-top: 1rem;
-    padding-right: 2rem;
+    
     
 }
 
 
 .header_title {
-    font-size: 4rem;
+    font-size: 2rem;
     margin-bottom: 0.5rem;
 }
 .header_paragr {
-    font-size: 1.7rem;
+    font-size: 1rem;
     font-weight: 800;
     margin-bottom: 1.5rem;
 }
@@ -128,3 +144,25 @@ img {
     width:100%;
     color:white;
 }
+
+header div img {
+    max-width: 100%;
+}
+
+.trusted_companies {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem ;   
+}
+
+.trusted_companies p {
+    text-align: center;
+    padding: 1rem;
+    font-weight: 700;
+    font-size: 2rem;
+}
+.trusted_companies_img {
+    display: flex;
+    flex-wrap: wrap;
+}
+
