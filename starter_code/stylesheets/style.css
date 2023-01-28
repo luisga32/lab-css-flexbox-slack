@@ -171,26 +171,17 @@ header {
 }
 .trusted-companies-img {
     display: flex;
-    justify-content:space-around;
+    justify-content:center;
+    align-items: center;
     flex-wrap: wrap;
     
 }
-.trusted-companies-img .img-comp-sqr {
+.img-comp {
 
-    /* height: 15.625rem;  */
-    width: 25%; 
+    height: 40px; 
     padding: 0.5rem;
-    object-fit:contain;
+    object-fit:cover;
    
 
 }
 
-.trusted-companies-img .img-comp-rect {
-
-    /* height: 15.625rem;  */
-    width: 45%; 
-    padding: 0.5rem;
-    object-fit:contain;
-   
-
-}
